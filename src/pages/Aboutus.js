@@ -5,8 +5,6 @@ import navbarLogo from "../assets/img/NavbarLogo.png";
 import logo from "../assets/img/LogoFree.svg";
 import linkedin from "../assets/img/linkedin.svg";
 import abouthead from "../assets/img/abouthead.png";
-import aboutusnumbers from "../assets/img/aboutusnumbers.svg";
-import mplier from "../assets/img/mplier.png";
 import anand from "../assets/zanrly-assets/images/teams/Anand Panchbhai.png";
 import vinay from "../assets/zanrly-assets/images/teams/Vinay Khobragade.png";
 import priyanjit from "../assets/zanrly-assets/images/teams/Priyanjit Ghosh.png";
