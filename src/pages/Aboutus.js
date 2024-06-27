@@ -332,13 +332,7 @@ export default function Aboutus() {
                     </p>
                   </div>
                 </div>
-                <div className="w-full md:w-1/2">
-                  <img
-                    className="mx-auto md:mr-0 rounded-3xl p-6"
-                    src={mplier}
-                    alt=""
-                  />
-                </div>
+               
               </div>
             </div>
           </div>
