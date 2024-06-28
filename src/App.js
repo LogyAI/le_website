@@ -33,7 +33,7 @@ function App() {
         </Helmet>
       </HelmetProvider>
       <ScrollToTop />
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         {/* <Route path="/aboutus" element={<AboutusPage />} /> */}
         <Route exact path="/" element={<IndexPage />} />
 
