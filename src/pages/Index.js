@@ -286,7 +286,7 @@ export default function Index() {
                     <p className="mb-8 text-xl font-normal">
                       Our Software-As-A-Medical-Device AI tool provides
                       solutions that are clinically validated in India and
-                      Africa. Our proprietary AI models are also patented for
+                      Africa. Our proprietary AI models deliver
                       90%+ accuracy.
                     </p>
                     <div className="flex flex-wrap justify-start -m-2">
@@ -347,7 +347,7 @@ export default function Index() {
               style={{ borderRadius: "0 0 16px 16px" }}
             >
               <p className="flex flex-wrap">
-                Patented Solutions{" "}
+                AI-Powered Solutions{" "}
                 {/* <img
                   style={{ width: "20px", marginLeft: "5px" }}
                   src={eyeicon}

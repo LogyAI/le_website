@@ -10,7 +10,6 @@ import mplier from "../assets/img/mplier.png";
 import anand from "../assets/zanrly-assets/images/teams/Anand Panchbhai.png";
 import vinay from "../assets/zanrly-assets/images/teams/Vinay Khobragade.png";
 import priyanjit from "../assets/zanrly-assets/images/teams/Priyanjit Ghosh.png";
-import nivedita from "../assets/zanrly-assets/images/teams/Nivedita Tiwari.png";
 import Clients from "../assets/components/clients";
 
 import "../assets/css/aboutus.css";
@@ -315,35 +314,6 @@ export default function Aboutus() {
         </div>
       </section> */}
 
-      <section className="bg-gray-50 overflow-hidden pb-12">
-        <div className="container mx-auto px-4">
-          <div className="px-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap">
-                <div className="w-full md:w-1/2 p-8">
-                  <div className="md:max-w-lg">
-                    <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight text-left">
-                      Our Key Investor
-                    </h2>
-                    <p className=" text-2xl font-normal investorText">
-                      Investors who have put their faith in us, we have been
-                      able to make great strides in our journey. We are humbled
-                      by their trust and are grateful for their support.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <img
-                    className="mx-auto md:mr-0 rounded-3xl p-6"
-                    src={mplier}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="bg-gray-50 overflow-hidden ">
         <div className="container mx-auto px-4">
           <div className="px-8  rounded-3xl">
@@ -425,36 +395,6 @@ export default function Aboutus() {
                       <a
                         className="flex items-center justify-center w-30 h-10 "
                         href="https://www.linkedin.com/in/anandpanchbhai/"
-                        target="_blank"
-                      >
-                        <img src={linkedin} alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="testimonialblock">
-              <div className="flex flex-col  px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-2">
-                  <img
-                    className="mb-8 mx-auto rounded-3xl"
-                    src={nivedita}
-                    alt=""
-                  />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-bold tracking-tight">
-                    Nivedita Tiwari
-                  </h3>
-                  <p className="text-sm text-gray-500 font-bold">
-                    Director of Clinical Ops & Founding team member
-                  </p>
-                </div>
-                <div className="flex-initial">
-                  <div className="flex flex-wrap justify-center -m-1.5">
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-30 h-10 "
-                        href="https://www.linkedin.com/in/nivedita-tiwari-88404216b/"
                         target="_blank"
                       >
                         <img src={linkedin} alt="" />
