@@ -6,18 +6,19 @@ import logo from "../assets/img/LogoFree.svg";
 import "../assets/css/cs.css";
 
 const meta = {
-  title: "Terms & Conditions - Logy.AI",
+  title: "Privacy Policy - Logy.AI",
   meta: [],
   link: [],
   style: [],
   script: [],
 };
 
-export default function Terms() {
+export default function Privacy() {
   const [menu, setMenu] = useState(true);
   const toggleMenu = () => {
     setMenu(!menu);
   };
+
   return (
     <React.Fragment>
       <HelmetProvider>
@@ -233,9 +234,6 @@ export default function Terms() {
               </nav>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center -m-4">
-            <div className="w-full md:flex-1 p-4"></div>
-          </div>
         </div>
       </section>
 
@@ -243,7 +241,7 @@ export default function Terms() {
         <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-6xl">
           <div className="bg-white rounded-lg shadow-md p-8 md:p-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-              Terms & Conditions
+              Privacy Policy
             </h1>
 
             <p className="text-gray-600 mb-8">
@@ -252,148 +250,129 @@ export default function Terms() {
 
             <div className="space-y-8 text-gray-700">
               <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
                 <p className="leading-relaxed">
-                  By accessing or using the Logy.AI platform and services ("Services"), you agree to be bound by these
-                  Terms and Conditions ("Terms"). If you do not agree to these Terms, you may not access or use our Services.
-                  These Terms apply to all users, including healthcare professionals, institutions, and patients.
+                  Nex Fitzap Private Limited ("Logy.AI", "we", "us", or "our") is committed to protecting your privacy.
+                  This Privacy Policy explains how we collect, use, disclose, and safeguard your information when
+                  you use our AI-powered healthcare platform and related services.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Use of Services</h2>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">2.1 Eligibility</h3>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Information We Collect</h2>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">2.1 Personal Information</h3>
                 <p className="leading-relaxed mb-4">
-                  You must be at least 18 years of age and have the legal authority to enter into these Terms. Healthcare
-                  professionals must hold valid credentials and licenses to use our diagnostic tools.
+                  We may collect personal information that you voluntarily provide to us, including:
                 </p>
-
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">2.2 Permitted Use</h3>
-                <p className="leading-relaxed mb-4">
-                  Our AI-powered healthcare platform is intended to assist healthcare professionals in diagnostic processes.
-                  You agree to use our Services only for lawful purposes and in accordance with these Terms.
-                </p>
-
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">2.3 Prohibited Activities</h3>
-                <p className="leading-relaxed mb-2">You agree not to:</p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Use the Services for any unlawful purpose or in violation of applicable regulations</li>
-                  <li>Attempt to gain unauthorized access to our systems or networks</li>
-                  <li>Interfere with or disrupt the Services or servers</li>
-                  <li>Use the Services to transmit any harmful code or malware</li>
-                  <li>Reverse engineer, decompile, or disassemble our AI algorithms</li>
-                  <li>Use automated systems to access the Services without authorization</li>
+                  <li>Name, email address, and contact information</li>
+                  <li>Professional credentials and organizational affiliation</li>
+                  <li>Account login credentials</li>
+                </ul>
+
+                <h3 className="text-xl font-semibold text-gray-800 mb-3 mt-6">2.2 Health Information</h3>
+                <p className="leading-relaxed mb-4">
+                  When using our diagnostic tools, we may collect:
+                </p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Medical images and diagnostic data</li>
+                  <li>Health-related information necessary for AI analysis</li>
+                  <li>Treatment and diagnosis records (when applicable)</li>
+                </ul>
+
+                <h3 className="text-xl font-semibold text-gray-800 mb-3 mt-6">2.3 Usage Data</h3>
+                <p className="leading-relaxed">
+                  We automatically collect information about your interaction with our platform, including device
+                  information, IP address, browser type, and usage patterns.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">3. How We Use Your Information</h2>
+                <p className="leading-relaxed mb-4">We use collected information to:</p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Provide and improve our AI-powered diagnostic services</li>
+                  <li>Analyze medical images and generate diagnostic insights</li>
+                  <li>Communicate with you about our services</li>
+                  <li>Ensure platform security and prevent fraud</li>
+                  <li>Comply with legal and regulatory requirements</li>
+                  <li>Conduct research and development to enhance our AI algorithms</li>
                 </ul>
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Medical Disclaimer</h2>
-                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-4">
-                  <p className="leading-relaxed font-semibold text-gray-900 mb-2">
-                    IMPORTANT: AI-Assisted Diagnostic Tool
-                  </p>
-                  <p className="leading-relaxed">
-                    Logy.AI provides AI-powered diagnostic assistance tools. Our Services are designed to support, not replace,
-                    the relationship between patients and healthcare professionals. All diagnostic decisions should be made by
-                    qualified healthcare professionals based on their clinical judgment, considering AI-generated insights as
-                    one of many diagnostic aids.
-                  </p>
-                </div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Data Security</h2>
                 <p className="leading-relaxed">
-                  We do not guarantee the accuracy, completeness, or reliability of AI-generated results. Healthcare professionals
-                  are solely responsible for patient care decisions and should independently verify all AI-generated insights.
+                  We implement industry-standard security measures to protect your information, including encryption,
+                  secure data storage, and access controls. However, no method of transmission over the internet is
+                  100% secure, and we cannot guarantee absolute security.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Intellectual Property</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">5. HIPAA Compliance</h2>
+                <p className="leading-relaxed">
+                  For users in the United States, we comply with the Health Insurance Portability and Accountability
+                  Act (HIPAA) when handling protected health information (PHI). We maintain appropriate administrative,
+                  physical, and technical safeguards as required by HIPAA.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Data Sharing and Disclosure</h2>
+                <p className="leading-relaxed mb-4">We may share your information with:</p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Healthcare providers and institutions (with your consent)</li>
+                  <li>Service providers who assist in our operations</li>
+                  <li>Legal authorities when required by law</li>
+                  <li>Business partners for research purposes (with de-identified data)</li>
+                </ul>
+                <p className="leading-relaxed mt-4">
+                  We do not sell your personal or health information to third parties.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Your Rights</h2>
+                <p className="leading-relaxed mb-4">You have the right to:</p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Access and review your personal information</li>
+                  <li>Request correction of inaccurate data</li>
+                  <li>Request deletion of your data (subject to legal obligations)</li>
+                  <li>Opt-out of certain data processing activities</li>
+                  <li>Receive a copy of your data in a portable format</li>
+                </ul>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">8. International Data Transfers</h2>
+                <p className="leading-relaxed">
+                  Your information may be transferred to and processed in countries other than your country of
+                  residence. We ensure appropriate safeguards are in place for such transfers in compliance with
+                  applicable data protection laws.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Children's Privacy</h2>
+                <p className="leading-relaxed">
+                  Our services are not directed to individuals under 18 years of age. We do not knowingly collect
+                  personal information from children.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Changes to This Policy</h2>
+                <p className="leading-relaxed">
+                  We may update this Privacy Policy from time to time. We will notify you of any material changes
+                  by posting the new policy on our website and updating the effective date.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Contact Us</h2>
                 <p className="leading-relaxed mb-4">
-                  All content, features, and functionality of the Services, including but not limited to AI algorithms,
-                  software, text, graphics, logos, and images, are owned by Nex Fitzap Private Limited or its licensors and are
-                  protected by international copyright, trademark, and other intellectual property laws.
-                </p>
-                <p className="leading-relaxed">
-                  You are granted a limited, non-exclusive, non-transferable license to access and use the Services for
-                  their intended purpose. This license does not include any right to resell or commercial use of the Services.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Data and Privacy</h2>
-                <p className="leading-relaxed mb-4">
-                  Your use of our Services is also governed by our Privacy Policy. By using our Services, you consent to
-                  the collection, use, and sharing of information as described in our Privacy Policy.
-                </p>
-                <p className="leading-relaxed">
-                  Healthcare professionals are responsible for obtaining appropriate patient consent before uploading any
-                  patient data or medical images to our platform. You must comply with all applicable healthcare privacy
-                  regulations, including HIPAA (in the United States) and GDPR (in the European Union).
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Limitation of Liability</h2>
-                <p className="leading-relaxed mb-4">
-                  TO THE MAXIMUM EXTENT PERMITTED BY LAW, NEX FITZAP PRIVATE LIMITED SHALL NOT BE LIABLE FOR ANY INDIRECT,
-                  INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER
-                  INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
-                </p>
-                <p className="leading-relaxed">
-                  Our total liability to you for any claims arising from or related to these Terms or the Services shall
-                  not exceed the amount you paid to us in the twelve (12) months preceding the claim.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Indemnification</h2>
-                <p className="leading-relaxed">
-                  You agree to indemnify, defend, and hold harmless Nex Fitzap Private Limited, its officers, directors, employees,
-                  and agents from and against any claims, liabilities, damages, losses, and expenses, including reasonable
-                  attorney's fees, arising out of or in any way connected with your access to or use of the Services or your
-                  violation of these Terms.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Regulatory Compliance</h2>
-                <p className="leading-relaxed">
-                  Our Services comply with applicable medical device regulations and healthcare standards. Healthcare
-                  professionals are responsible for ensuring their use of our Services complies with local regulations
-                  and professional standards of practice.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Modifications to Terms</h2>
-                <p className="leading-relaxed">
-                  We reserve the right to modify these Terms at any time. We will notify users of material changes by
-                  posting the updated Terms on our website and updating the effective date. Your continued use of the
-                  Services after such modifications constitutes acceptance of the updated Terms.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Termination</h2>
-                <p className="leading-relaxed">
-                  We may terminate or suspend your access to the Services immediately, without prior notice or liability,
-                  for any reason, including if you breach these Terms. Upon termination, your right to use the Services
-                  will cease immediately.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Governing Law</h2>
-                <p className="leading-relaxed">
-                  These Terms shall be governed by and construed in accordance with the laws of India,
-                  without regard to its conflict of law provisions. Any legal action or proceeding arising
-                  under these Terms shall be brought exclusively in the courts of Hyderabad, India.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Contact Information</h2>
-                <p className="leading-relaxed mb-4">
-                  If you have any questions about these Terms & Conditions, please contact us:
+                  If you have questions about this Privacy Policy or our data practices, please contact us:
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <p className="font-semibold mb-2">Nex Fitzap Private Limited</p>
@@ -401,7 +380,7 @@ export default function Terms() {
                   <p className="mb-1">ISB Campus, Gachibowli,</p>
                   <p className="mb-1">Hyderabad - India, 500111</p>
                   <p className="mt-4">
-                    Email: <a href="mailto:legal@logy.ai" className="text-blue-500 hover:text-blue-600">legal@logy.ai</a>
+                    Email: <a href="mailto:privacy@logy.ai" className="text-blue-500 hover:text-blue-600">privacy@logy.ai</a>
                   </p>
                 </div>
               </section>

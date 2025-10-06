@@ -15,6 +15,7 @@ import Cs1 from "./caseStudies/cs1.jsx";
 import ScrollToTop from "./assets/components/scrollToTop";
 import Footer from "./assets/components/Footer.jsx";
 import Terms from "./pages/Tnc";
+import Privacy from "./pages/Privacy";
 import Cs2 from "./caseStudies/cs2";
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <Route path="/colgate_nigeria_cs" element={<Cs2 />} />
         {/* <Route path="/vidisha_2_cs" element={<Cs3 />} /> */}
         <Route path="/tnc" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
       <Footer />
     </div>

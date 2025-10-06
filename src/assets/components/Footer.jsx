@@ -63,18 +63,18 @@ function Footer() {
                   <li className="mb-4">
                     <Link
                       className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
-                      to="/contact"
+                      to="/tnc"
                     >
                       Terms and conditions
                     </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
-                      href="https://docs.google.com/document/u/0/d/e/2PACX-1vQJDkbwSDLAvy1ea7LcDJIM0TCw-v9e_Jbpu5ah79BR7goKU0hXhf-rhVXLusABoCjlYj6vApGPQ8mZ/pub?pli=1"
+                      to="/privacy"
                     >
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -85,25 +85,10 @@ function Footer() {
                       className="inline-block text-gray-500 hover:text-gray-600 font-bold text-2xl"
                       href="#"
                     >
-                      Our Locations
+                      Our Location
                     </a>
                   </li>
-                  <li className="mb-4">LOGY AI HEALTH INC</li>
-                  <li className="mb-4">
-                    <div className="flex">
-                      <div style={{ marginRight: "8px" }}>📍</div>
-                      <div>
-                        {" "}
-                        <span>
-                          919, North Market Street,
-                          <br />
-                          Ste 950, Wilmington
-                          <br />
-                          Delaware - USA 19801
-                        </span>
-                      </div>
-                    </div>
-                  </li>
+                  <li className="mb-4">Nex Fitzap Private Limited</li>
                   <li className="mb-4">
                     <div className="flex">
                       <div style={{ marginRight: "8px" }}>📍</div>
